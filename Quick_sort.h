@@ -24,7 +24,7 @@ void Quick_sort(int* arr, int left, int right)
 	if (left >= right)
 		return;
 
-	//median_left(arr, left, right);
+	median_left(arr, left, right);
 
 	int sortleft, sortright, pivot;
 		pivot = arr[left];
